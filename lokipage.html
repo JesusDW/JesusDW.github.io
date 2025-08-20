@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Loki's Candy Manager</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt">
+				<h1><a href="index.html">Wilkinson</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="lokipage.html">Loki's Candy Manager</a></li>
+						<li><a href="unitypage.html">Reflection on old code</a></li>
+						<li><a href="htmlpage.html">HTML Shirts</a></li>
+						<li><a href="grouppage.html">Group Project</a></li>
+						<li><a href="#footer">Contact Me</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<!-- Wrapper -->
+			<section id="wrapper">
+				<header>
+					<div class="inner">
+						<h2>Loki's Candy Manager</h2>
+						<p>This is my largest project yet including a sqlite database for storing information a Point of Service system for buying candy. a manager view to edit items within the database such as candy categories discounts and user information.a profile system where the user can access their own personal information edit and use points earned by spending cash to get borders for their profiles or generate pre-set discounts.</p>
+						<p>Github repository for users with access to it <a href="https://github.com/TSTC-CPT/25sp-233x-JesusWilkinson" target="_blank">Loki's Candy Manager Repo</a></p>
+					</div>
+				</header>
+
+				<!-- Content -->
+				<div class="wrapper">
+					<div class="inner">
+						<h3 class="major">Logon view</h3>
+						<p>
+							This view is used to facilitate the handeling of user logins
+							<br />Register user allows for a user to be generated defaulted as a customer
+							<br />Forgot passkey allows for a user to reset their passkey if they remeer their security questions
+							<br />
+							<a href="images/logon.jpg" class="image" target="_blank"><img src="images/logon.jpg" alt="preview of logon view" width="300" height="200" /></a>
+							<a href="images/register.jpg" class="image" target="_blank"><img src="images/register.jpg" alt="preview of register menu" width="300" height="200" /></a>
+							<a href="images/forgot.jpg" class="image" target="_blank"><img src="images/forgot.jpg" alt="preview of forgot passkey view" width="300" height="200" /></a>
+							<a href="images/frmview.jpg" class="image" target="_blank"><img src="images/frmview.jpg" alt="code handeling ui change" width="300" height="200" /></a>
+							<a href="images/registerfunc.jpg" class="image" target="_blank"><img src="images/registerfunc.jpg" alt="code handeling registration" width="300" height="200" /></a>
+							<a href="images/newuser.jpg" class="image" target="_blank"><img src="images/newuser.jpg" alt="code that binds ui data to object" width="300" height="200" /></a>
+
+						</p>
+
+						<h3 class="major">Customer view</h3>
+						<p>
+							This view is used to facilitate the handeling of purcheses
+							<br />History tab contains every previous purchace of a user
+							<br />Favorites tab contains pre-set cart details for repeated purchases
+							<br />turns a list of order details into a list of sales per order and 1 
+							<br />
+							<a href="images/userview.jpg" class="image" target="_blank"><img src="images/userview.jpg" alt="preview of manager editing a user" width="300" height="200" /></a>
+							<a href="images/oldrecipt.jpg" class="image" target="_blank"><img src="images/oldrecipt.jpg" alt="preview of purchase history in action" width="300" height="200" /></a>
+							<a href="images/salesinfo1.jpg" class="image" target="_blank"><img src="images/salesinfo1.jpg" alt="preview of purchase history in action" width="300" height="200" /></a>
+							<a href="images/salesinfo2.jpg" class="image" target="_blank"><img src="images/salesinfo2.jpg" alt="preview of purchase history in action" width="300" height="200" /></a>
+
+						</p>
+						
+						<h3 class="major">Manager view</h3>
+						<p>
+							This view is used to facilitate the handeling of the database
+							<br />Reports tab contains methods to generate inventory or sales reports
+							<br />Person tab contains user information and allows manager the ability to act as a customer and enter the Customer view with their information
+							<br />
+							<a href="images/manageuser.jpg" class="image" target="_blank"><img src="images/manageuser.jpg" alt="preview of manager editing a user" width="300" height="200" /></a>
+							<a href="images/report.jpg" class="image" target="_blank"><img src="images/report.jpg" alt="preview inventory report in action" width="300" height="200" /></a>
+
+						</p>
+						<h3 class="major">Profile view</h3>
+						<p>
+							This view is used to facilitate the handeling of user information and statistics
+							<br />Customize allows for user to get a border for their profile image
+							<br />Personal Information allows for the user to change thier info in the database and bind a valid credit card to their account with a pin
+							<br />
+							<a href="images/profile.jpg" class="image" target="_blank"><img src="images/profile.jpg" alt="preview of profile view" width="300" height="200" /></a>
+							<a href="images/personal.jpg" class="image" target="_blank"><img src="images/personal.jpg" alt="preview of personal information tab" width="300" height="200" /></a>
+
+						</p>
+
+						<h3 class="major">Major Methods</h3>
+						<p>These 2 methods i worked on in this project hold some significance since they allowed me to be more flexible</p>
+						<section class="features">
+							<article>
+								<a href="images/placebtn.jpg" class="image" target="_blank"><img src="images/placebtn.jpg" alt="code that places buttons" /></a>
+								<h3 class="major">Button Generation</h3>
+								<p>instead of hard coding butons i generate buttons then bind data to them such as position data and candy data</p>
+								<a href="images/btngen.jpg" class="special" target="_blank">new button function</a>
+							</article>
+							<article>
+								<a href="images/threadex.jpg" class="image" target="_blank"><img src="images/threadex.jpg" alt="code showing thread worker running non ui actions and invoking ui actions when done" /></a>
+								<h3 class="major">Threading</h3>
+								<p>I wanted my dedicated sql thread worker to have a simple way to add a task to the thread and invoke the main thread when ui updates are required </p>
+								<a href="images/threadclass.jpg" class="special" target="_blank">threading work loop</a>
+							</article>
+						</section>
+					</div>
+				</div>
+
+			</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">Get in touch</h2>
+					<p>For more detailed information or source files please contact me with an email me or send a direct message over discord </p>
+					<ul class="contact">
+						<li class="icon solid fa-home">
+							La Feria, TX 78559
+						</li>
+						<li class="icon solid fa-phone">(956) 970-3410</li>
+						<li class="icon solid fa-envelope"><a href="https://mail.google.com/">jdwilkinson@mymail.tstc.edu</a></li>
+						<li class="icon brands fa-discord"><a href="https://discord.com/users/914460495266869318">JesusDW</a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Jesus Wilkinson All rights reserved.</li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
