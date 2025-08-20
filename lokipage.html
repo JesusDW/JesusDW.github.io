@@ -46,7 +46,9 @@
 				<header>
 					<div class="inner">
 						<h2>Loki's Candy Manager</h2>
-						<p>This is my largest project yet including a sqlite database for storing information a Point of Service system for buying candy. a manager view to edit items within the database such as candy categories discounts and user information.a profile system where the user can access their own personal information edit and use points earned by spending cash to get borders for their profiles or generate pre-set discounts.</p>
+						<p>This is my largest project yet including a sqlite database for storing information, a Point of Service system for buying candy, and manager view to edit items within the database. 
+						Such items include candy, categories, discounts, point redeems, and user information. 
+						A profile system where the user can access their own personal information to edit, and use points earned by spending cash to get borders for their profiles or generate pre-set discounts.</p>
 						<p>Github repository for users with access to it <a href="https://github.com/TSTC-CPT/25sp-233x-JesusWilkinson" target="_blank">Loki's Candy Manager Repo</a></p>
 					</div>
 				</header>
@@ -56,9 +58,9 @@
 					<div class="inner">
 						<h3 class="major">Logon view</h3>
 						<p>
-							This view is used to facilitate the handeling of user logins
-							<br />Register user allows for a user to be generated defaulted as a customer
-							<br />Forgot passkey allows for a user to reset their passkey if they remeer their security questions
+							This view is used to facilitate the handling of user logins.
+							<br />Register user allows for a user to be generated defaulted as a customer.
+							<br />Forgot passkey allows for a user to reset their passkey if they remeer their security questions.
 							<br />
 							<a href="images/logon.jpg" class="image" target="_blank"><img src="images/logon.jpg" alt="preview of logon view" width="300" height="200" /></a>
 							<a href="images/register.jpg" class="image" target="_blank"><img src="images/register.jpg" alt="preview of register menu" width="300" height="200" /></a>
@@ -71,10 +73,10 @@
 
 						<h3 class="major">Customer view</h3>
 						<p>
-							This view is used to facilitate the handeling of purcheses
-							<br />History tab contains every previous purchace of a user
-							<br />Favorites tab contains pre-set cart details for repeated purchases
-							<br />turns a list of order details into a list of sales per order and 1 
+							This view is used to facilitate the handling of purcheses.
+							<br />History tab contains every previous purchace of a user.
+							<br />Favorites tab contains pre-set cart details for repeated purchases.
+							<br />Turns a Dictionary of orders and order details into a Dictionary of orders with data of sales per order. 
 							<br />
 							<a href="images/userview.jpg" class="image" target="_blank"><img src="images/userview.jpg" alt="preview of manager editing a user" width="300" height="200" /></a>
 							<a href="images/oldrecipt.jpg" class="image" target="_blank"><img src="images/oldrecipt.jpg" alt="preview of purchase history in action" width="300" height="200" /></a>
@@ -85,9 +87,9 @@
 						
 						<h3 class="major">Manager view</h3>
 						<p>
-							This view is used to facilitate the handeling of the database
-							<br />Reports tab contains methods to generate inventory or sales reports
-							<br />Person tab contains user information and allows manager the ability to act as a customer and enter the Customer view with their information
+							This view is used to facilitate the handling of the database.
+							<br />Reports tab contains methods to generate inventory or sales reports.
+							<br />Person tab contains user information and allows manager the ability to act as a customer within the customer view.
 							<br />
 							<a href="images/manageuser.jpg" class="image" target="_blank"><img src="images/manageuser.jpg" alt="preview of manager editing a user" width="300" height="200" /></a>
 							<a href="images/report.jpg" class="image" target="_blank"><img src="images/report.jpg" alt="preview inventory report in action" width="300" height="200" /></a>
@@ -95,9 +97,9 @@
 						</p>
 						<h3 class="major">Profile view</h3>
 						<p>
-							This view is used to facilitate the handeling of user information and statistics
-							<br />Customize allows for user to get a border for their profile image
-							<br />Personal Information allows for the user to change thier info in the database and bind a valid credit card to their account with a pin
+							This view is used to facilitate the handling of user information and statistics.
+							<br />Customize allows for user to get a border for their profile picture.
+							<br />Personal Information allows the user to change thier info in the database, and bind a valid credit card to their account with a pin.
 							<br />
 							<a href="images/profile.jpg" class="image" target="_blank"><img src="images/profile.jpg" alt="preview of profile view" width="300" height="200" /></a>
 							<a href="images/personal.jpg" class="image" target="_blank"><img src="images/personal.jpg" alt="preview of personal information tab" width="300" height="200" /></a>
@@ -105,18 +107,18 @@
 						</p>
 
 						<h3 class="major">Major Methods</h3>
-						<p>These 2 methods i worked on in this project hold some significance since they allowed me to be more flexible</p>
+						<p>These 2 methods I worked on in this project hold some significance since they allowed me to be more flexible.</p>
 						<section class="features">
 							<article>
 								<a href="images/placebtn.jpg" class="image" target="_blank"><img src="images/placebtn.jpg" alt="code that places buttons" /></a>
 								<h3 class="major">Button Generation</h3>
-								<p>instead of hard coding butons i generate buttons then bind data to them such as position data and candy data</p>
+								<p>Instead of hard coding butons I generate buttons then bind data to them such as position and candy details.</p>
 								<a href="images/btngen.jpg" class="special" target="_blank">new button function</a>
 							</article>
 							<article>
 								<a href="images/threadex.jpg" class="image" target="_blank"><img src="images/threadex.jpg" alt="code showing thread worker running non ui actions and invoking ui actions when done" /></a>
 								<h3 class="major">Threading</h3>
-								<p>I wanted my dedicated sql thread worker to have a simple way to add a task to the thread and invoke the main thread when ui updates are required </p>
+								<p>I wanted my dedicated sql thread worker to have a simple way to add a task to the thread and invoke the main thread when ui updates are required. This allowed for easier use of threading since a less complex function name made it easeir to read  </p>
 								<a href="images/threadclass.jpg" class="special" target="_blank">threading work loop</a>
 							</article>
 						</section>
